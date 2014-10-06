@@ -1,0 +1,17 @@
+.sidebar {
+  background-color: #261406;
+  float: right;
+  width: 30%;
+}
+
+.sidebar h2, h3 {
+  clear: both;
+}
+
+.sidebar a, .sidebar li {
+  color: #C99E67;
+}
+
+.sidebar a:hover {
+  color: #683B11
+}

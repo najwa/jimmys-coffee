@@ -1,0 +1,103 @@
+@import url(normalize.css);
+@import url(clearfix.css);
+@import url(border-box.css);
+@import url(nav.css);
+@import url(center-cropped.css);
+@import url(social.css);
+@import url(location.css);
+@import url(sidebar.css);
+
+/* Colors
+beige - #D29D41
+beige 2 - #C99E67
+dark brown - #261406
+red brown - #6B0B0F
+beige brown - #683B11
+grey brown - #343232
+grey - #020000
+*/
+
+body {
+  background-color: #D29D41;
+  background-image: url('../images/pattern.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Lato';
+  color: #261406;
+  line-height: 1.2;
+}
+
+header {
+  text-align: center;
+  background-color: #6B0B0F;
+  color: #D29D41
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3em;
+  text-shadow: 2px 2px 0px #683B11;
+  margin: 1.2rem 0rem 0.6rem;
+}
+
+h1,h2,h3 {
+  font-family: 'Advent Pro';
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+h2, h3 {
+  margin: 10px -10px;
+  padding: 0px 10px;
+  background-color: #683B11;
+}
+
+.wrapper > * {
+  padding: 10px;
+}
+
+.wrapper {
+  background: rgb(201,158,103); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(201,158,103,1) 0%, rgba(210,157,65,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(201,158,103,1)), color-stop(100%,rgba(210,157,65,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(201,158,103,1) 0%,rgba(210,157,65,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(201,158,103,1) 0%,rgba(210,157,65,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(201,158,103,1) 0%,rgba(210,157,65,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(201,158,103,1) 0%,rgba(210,157,65,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c99e67', endColorstr='#d29d41',GradientType=0 ); /* IE6-9 */
+
+
+  border: 1px #D29D41 solid;
+  margin: 20px auto;
+  padding: 0px;
+  padding-top: 100px;
+  margin-top: -100px;
+  width: 900px;
+  box-shadow: 10px 10px 5px 0px #261406;
+}
+
+.content {
+  float: left;
+  width: 65%;
+}
+
+footer {
+  clear: both;
+  background-color: #6B0B0F;
+  color: #D29D41
+}
+
+a {
+  text-decoration: none;
+  color: #343232;
+}
+
+a:hover {
+  color: #020000;
+}
+
+li span {
+  color: #683B11;
+  font-weight: bold;
+}

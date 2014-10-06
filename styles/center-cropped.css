@@ -1,0 +1,33 @@
+/* The div with a bg image technique is from http://stackoverflow.com/questions/11552380/how-to-automatically-crop-and-center-an-image;*/
+
+.center-cropped {
+  width: 75px;
+  height: 75px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  float: left;
+  position: relative; /*http://css-tricks.com/text-blocks-over-image/*/
+
+  border: 2px solid #020000;
+  border-radius: 50%;
+  margin: 1px 1px;
+}
+
+/* Set the image to fill its parent and make transparent */
+.center-cropped img {
+  height: 75px;
+  width: 75px;
+  opacity: 0;
+  position: absolute;
+}
+
+.center-cropped p {
+  margin: 50% auto;
+  color: #D29D41;
+  background: rgba(0, 0, 0, 0.7);
+  font-size: 0.8rem;
+}
+
+.center-cropped:hover {
+  border-radius: 0%;
+}

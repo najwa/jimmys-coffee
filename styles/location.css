@@ -1,0 +1,33 @@
+.location img {
+  width: 150px;
+}
+
+.location img:nth-of-type(2n) {
+  float: left;
+  margin-right: 10px;
+}
+
+.location img:nth-of-type(2n+1) {
+  float: right;
+  margin-left: 10px;
+}
+
+.location h2 {
+  clear: both;
+}
+
+.location img.logo {
+  float: none;
+  width: 48px;
+  border: 2px solid #020000;
+  border-radius: 50%;
+  margin: 1px 1px;
+}
+
+.location img.logo:hover {
+  border-radius: 0%;
+}
+
+.location .reviews {
+  clear: both;
+}
